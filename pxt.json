@@ -1,0 +1,41 @@
+{
+    "name": "Flappy bird",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "devices": "*",
+        "bluetooth": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.1.78",
+        "tag": "v1.1.78",
+        "commits": "https://github.com/Microsoft/pxt-microbit/commits/21e94c550395199a2900af1b8dc75baed5ca7105",
+        "target": "6.0.17",
+        "pxt": "4.1.41",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 0,
+                    "whitelist": 1,
+                    "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
+                }
+            }
+        }
+    }
+}
